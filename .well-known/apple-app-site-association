@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "MWEG5ZR2PX.com.heliodolores.flipp4th",
-        "paths": ["/?s=*", "/?p=*", "/"]
+        "paths": ["*"]
       }
     ]
   }
