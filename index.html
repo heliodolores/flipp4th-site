@@ -168,28 +168,42 @@
       var ua = navigator.userAgent || '';
       var params = new URLSearchParams(window.location.search);
       var shareCode = params.get('s');
+      var levelToken = params.get('p');
       var isIOS = /iPhone|iPad|iPod/.test(ua);
       var isAndroid = /Android/.test(ua);
 
-      // Show shared level section if ?s= is present
-      if (shareCode) {
+      // Show shared level section if ?s= or ?p= is present
+      if (shareCode || levelToken) {
         document.getElementById('shared-section').style.display = '';
+      }
+      if (levelToken) {
+        document.querySelector('#shared-section h2').textContent =
+          'Someone challenged you to play a level!';
+        document.querySelector('#shared-section p').textContent =
+          'Open Flipp4th to try it.';
       }
 
       // Add platform class for CSS hiding
       if (isIOS) document.body.classList.add('is-ios');
       if (isAndroid) document.body.classList.add('is-android');
 
-      // On mobile with a share code, try to open the app first
-      if (shareCode && (isIOS || isAndroid)) {
+      // On mobile with a share code or level token, try to open the app first
+      if ((shareCode || levelToken) && (isIOS || isAndroid)) {
         if (isAndroid) {
-          // Android: intent URI tries app, falls back to Play Store
-          var intent = 'intent://share?s=' + encodeURIComponent(shareCode) +
-            '#Intent;scheme=flipp4th;package=com.heliodolores.flipp4th;' +
-            'S.browser_fallback_url=' + encodeURIComponent(
-              'https://play.google.com/store/apps/details?id=com.heliodolores.flipp4th'
-            ) + ';end';
-          document.getElementById('android-btn').href = intent;
+          var intentParams;
+          if (shareCode) {
+            intentParams = 'share?s=' + encodeURIComponent(shareCode);
+          } else if (levelToken) {
+            intentParams = 'level?p=' + encodeURIComponent(levelToken);
+          }
+          if (intentParams) {
+            var intent = 'intent://' + intentParams +
+              '#Intent;scheme=flipp4th;package=com.heliodolores.flipp4th;' +
+              'S.browser_fallback_url=' + encodeURIComponent(
+                'https://play.google.com/store/apps/details?id=com.heliodolores.flipp4th'
+              ) + ';end';
+            document.getElementById('android-btn').href = intent;
+          }
         }
       }
     })();
