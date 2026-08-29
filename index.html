@@ -140,6 +140,21 @@
       width: auto;
     }
 
+    .legal-links {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .legal-links a {
+      color: #C4BAA8;
+      text-decoration: none;
+    }
+
+    .legal-links a:hover {
+      color: #3B342A;
+    }
+
     /* Hide sections based on detected platform */
     body.is-ios .store-btn.android { display: none; }
     body.is-android .store-btn.ios { display: none; }
@@ -174,6 +189,11 @@
 
   <footer class="footer">
     <img class="company-logo" src="HelioPlay.jpeg" alt="HelioPlay">
+    <div class="legal-links">
+      <a href="/privacy">Privacy Policy</a>
+      <span>&middot;</span>
+      <a href="/terms">Terms of Use</a>
+    </div>
   </footer>
 
   <script>
