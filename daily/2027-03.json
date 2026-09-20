@@ -1,0 +1,12 @@
+{ "levels": [
+    {"date":"2027-03-01","name":"The Carrot","grid":[[0,0,0,0,305],[0,0,1,2,0],[0,0,3,1,0],[0,2,0,0,0],[1,0,0,0,0]],"solution":"Tc3d2x0SBmTmzA"},
+    {"date":"2027-03-02","name":"Viper","grid":[[2,0,1,0,1,0],[0,4,0,2,0,1],[1,0,3,0,2,0],[0,3,0,2,0,1],[1,0,1,0,3,0],[0,0,0,1,0,1]],"solution":"WUzdy8LtTxiXRwDISXzEQU75VMLorRTYRg","verified":true},
+    {"date":"2027-03-03","name":"Starburst","grid":[[1,0,1,0,0],[0,2,0,2,0],[1,0,2,0,1],[0,1,0,2,0],[0,0,0,0,1]],"solution":"SUzZ2RGg3wDzV9jkkA","verified":true},
+    {"date":"2027-03-04","name":"Ridgeline","grid":[[0,2,0,0,0],[1,2,0,0,0],[2,0,1,1,1],[0,2,0,2,0],[0,0,0,0,0]],"solution":"SUjZGXEyBC1ilxjkkA","verified":true},
+    {"date":"2027-03-05","name":"Pinch","grid":[[2,0,0,2],[0,3,3,0],[0,3,3,0],[2,0,0,2]],"solution":"U0zdGVCm12B03iR2gnHQEAY","verified":true},
+    {"date":"2027-03-06","name":"Nexus","grid":[[0,3,2,1],[3,0,3,0],[2,3,0,0],[1,0,0,0]],"solution":"VUhr0ngGxQjCXShCURRGCA","verified":true},
+    {"date":"2027-03-07","name":"Labyrinth","grid":[[2,0,1,0,0],[0,4,0,1,0],[1,0,2,0,1],[0,1,0,4,0],[0,0,1,0,2]],"solution":"U0zZ2RCkXQDy1cDlS6XtUwo","verified":true},
+    {"date":"2027-03-08","name":"Cairn","grid":[[2,1,0,0],[0,400,1,0],[0,1,400,0],[0,0,1,2]],"solution":"SkxZWRSWBiXgnw","verified":true},
+    {"date":"2027-03-09","name":"Wrecking Ball","grid":[[3,401,0,0],[401,0,2,0],[0,2,0,401],[0,0,401,3]],"solution":"UGVbUFS0VWhGBA30i11ikits","verified":true},
+    {"date":"2027-03-10","name":"Nightfall","grid":[[0,3,0,1,213],[3,1,0,0,501],[500,0,1,500,0],[401,0,0,0,302],[1,0,0,3,501]],"solution":"U8GBtFz8sATGBE3QGX1iaMI","difficulty":3,"design":4}
+] }

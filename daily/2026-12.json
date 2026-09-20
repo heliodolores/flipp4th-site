@@ -22,12 +22,15 @@
     {"date":"2026-12-21","name":"Astrolabe","grid":[[0,0,0,3,0],[0,0,0,3,0],[1,1,0,301,500],[0,1,2,2,0],[1,1,0,3,500]],"solution":"UkD5m1yBdyZwryDIcV1AQA"},
     {"date":"2026-12-22","name":"Sundial","grid":[[1,3,0,0,0],[401,1,1,0,0],[0,3,0,0,0],[0,400,1,3,0],[0,0,0,3,0]],"solution":"UiJ_sz4CxWxUTE3QGnHAAQ","verified":true},
     {"date":"2026-12-23","name":"Rockslide","grid":[[0,1,1,0,1],[0,1,0,1,1],[0,1,0,0,2],[2,0,0,2,2],[0,401,0,0,400]],"solution":"V1yMTD3ygGRmBQzYCHQ"},
-    {"date":"2026-12-24","name":"Quicksand","grid":[[0,1,2,1,0],[400,3,0,2,0],[0,1,0,3,401],[0,1,1,0,0],[0,0,0,1,1]],"solution":"Vd5_yRSkHUDWz2Rig2VmiA","verified":false},
-    {"date":"2026-12-25","name":"Eclipse","grid":[[0,0,3,0,0],[0,2,2,401,0],[0,2,0,0,0],[2,400,0,2,2],[2,0,2,0,0]],"solution":"UT3-S9mgHWBkzmVyAVZSaCBqyQ","verified":false,"difficulty":3,"design":3},
+    {"date":"2026-12-24","name":"Quicksand","grid":[[0,1,2,1,0],[400,3,0,2,0],[0,1,0,3,401],[0,1,1,0,0],[0,0,0,1,1]],"solution":"Vd5_yRSkHUDWz2Rig2VmiA","verified":true},
+    {"date":"2026-12-25","name":"Eclipse","grid":[[0,0,3,0,0],[0,2,2,401,0],[0,2,0,0,0],[2,400,0,2,2],[2,0,2,0,0]],"solution":"UT3-S9mgHWBkzmVyAVZSaCBqyQ","verified":true,"difficulty":3,"design":3},
     {"date":"2026-12-26","name":"Gatehouse","grid":[[1,0,210,2,2],[2,2,0,2,0],[0,2,200,0,0],[1,0,0,0,0],[0,1,0,0,0]],"solution":"VEzd21x0kGVkBA3UCLHE"},
     {"date":"2026-12-27","name":"Mirage","grid":[[1,0,3,0,0],[3,0,3,0,0],[0,217,301,0,0],[1,3,1,0,0],[1,0,1,301,0]],"solution":"UG1f8jWwHEjCFcjEGjz0wk7s","design":2},
     {"date":"2026-12-28","name":"Encircle","grid":[[0,2,0,0,0],[0,1,2,0,0],[0,2,0,0,210],[304,2,0,2,0],[0,1,1,0,0]],"solution":"SUjZGhSQDc3e1xjkkA","difficulty":3,"design":3},
     {"date":"2026-12-29","name":"Cannonade","grid":[[0,0,1,3,2],[0,1,0,0,3],[0,0,2,1,0],[3,1,0,210,301],[0,3,2,2,0]],"solution":"X0R4XEAHV3lyxQDGcVZCacx06jw"},
-    {"date":"2026-12-30","name":"Shadowstep","grid":[[0,0,1,3,1],[3,0,1,0,0],[3,0,306,0,1],[0,3,301,3,0],[0,0,3,200,1]],"solution":"X0BplFyQzcHzV9joyb3AQAbIQVA","verified":false,"difficulty":3,"design":3},
-    {"date":"2026-12-31","name":"Colossus","grid":[[0,1,0,0,0],[1,2,1,2,3],[0,0,3,0,306],[305,2,1,2,0],[0,0,0,0,0]],"solution":"Un0KW2CG3UzEHiz2Allymw","verified":false,"difficulty":3,"design":4}
+    {"date":"2026-12-30","name":"Shadowstep","grid":[[0,0,1,3,1],[3,0,1,0,0],[3,0,306,0,1],[0,3,301,3,0],[0,0,3,200,1]],"solution":"X0BplFyQzcHzV9joyb3AQAbIQVA","verified":true,"difficulty":3,"design":3},
+    {"date":"2026-12-31","name":"Colossus","grid":[[0,1,0,0,0],[1,2,1,2,3],[0,0,3,0,306],[305,2,1,2,0],[0,0,0,0,0]],"solution":"Un0KW2CG3UzEHiz2Allymw","verified":true,"difficulty":3,"design":4},
+    {"date":"2026-12-32","name":"Merry Christmas","grid":[[0,0,400,400,0,0],[0,401,400,401,400,0],[0,400,401,400,401,0],[401,400,401,401,400,401],[400,401,400,400,401,400],[0,0,5,5,0,0]],"solution":"Tebz-_qO_-L8zA"},
+    {"date":"2026-12-33","name":"Present","grid":[[1,1,503,1,1],[1,2,500,2,1],[502,501,3,501,502],[1,2,500,2,1],[1,1,503,1,1]],"solution":"XmhZWHUWl1iEnizYcVFylNR6mg"},
+    {"date":"2026-12-34","name":"Ridgepoint","grid":[[1,0,2,0,0],[0,3,0,3,0],[1,0,3,0,2],[0,3,0,3,0],[1,0,1,0,1]],"solution":"X0zdydGgXUDzV9jk2Tzg0c_5QkA","verified":true}
 ] }
