@@ -18,5 +18,9 @@
     {"date":"2026-09-17","name":"Wyvern","grid":[[0,3,1,1,401],[3,0,0,0,500],[0,1,3,0,1],[203,500,0,1,3],[0,0,0,0,3]],"solution":"UWxbUXAk13liHiwXdEYTbCtuyQ"},
     {"date":"2026-09-18","name":"Kraken","grid":[[0,0,1,1,0],[0,2,207,0,0],[1,0,2,1,1],[1,2,1,0,0],[0,0,1,3,200]],"solution":"Uh19yTE2HkRkHiz4tLp8kw","verified":true},
     {"date":"2026-09-19","name":"Stronghold","grid":[[0,0,0,1,2],[0,0,0,2,0],[0,0,215,0,0],[0,2,0,0,0],[2,1,0,0,0]],"solution":"SipBMDUWl1j3QA","verified":true},
-    {"date":"2026-09-20","name":"Bifrost","grid":[[500,1,0,3,0,0],[500,0,200,0,2,0],[3,1,1,0,0,0],[0,400,0,0,0,0],[0,1,0,0,0,0],[301,0,1,0,0,0]],"solution":"UkCJnFyQxQnSRGlAQFJO6g","verified":true}
+    {"date":"2026-09-20","name":"Bifrost","grid":[[500,1,0,3,0,0],[500,0,200,0,2,0],[3,1,1,0,0,0],[0,400,0,0,0,0],[0,1,0,0,0,0],[301,0,1,0,0,0]],"solution":"UkCJnFyQxQnSRGlAQFJO6g","verified":true},
+    {"date":"2026-09-21","name":"Bulwark","grid":[[1,0,0,0,0],[1,401,3,3,1],[1,0,0,0,0],[1,3,3,3,0],[1,0,0,400,0]],"solution":"USHvij2SDC5AHGlSGhj2gmqNSQ","verified":false},
+    {"date":"2026-09-22","name":"Forge","grid":[[0,1,401,3,1],[1,0,0,1,0],[1,3,0,1,0],[0,3,3,0,0],[3,1,0,200,0]],"solution":"X0D9ihUwDsXgLM9WMFFGSU59Snw"},
+    {"date":"2026-09-23","name":"Lathe","grid":[[0,0,0,0,2],[0,1,3,1,200],[3,2,0,3,0],[0,0,0,2,1],[0,0,0,0,0]],"solution":"UlyIW3kCiCV032HEQXVAQA"},
+    {"date":"2026-09-24","name":"Minefield","grid":[[0,3,0,200,0],[0,0,3,0,0],[3,0,0,2,0],[3,3,210,3,0],[0,3,0,0,2]],"solution":"WkjpGlSQj9nyli9GMVFSWCdKaDnpKA","verified":false,"difficulty":4,"design":3}
 ] }
