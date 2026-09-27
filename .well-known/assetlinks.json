@@ -1,11 +1,14 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.helioshred.flipp4th",
       "sha256_cert_fingerprints": [
-        "44:7E:4D:41:0B:E3:21:7A:29:DA:F9:23:CA:D1:02:B9:9E:43:F6:97:E3:5E:80:25:7C:1A:CD:C9:35:07:5B:83"
+        "44:7E:4D:41:0B:E3:21:7A:29:DA:F9:23:CA:D1:02:B9:9E:43:F6:97:E3:5E:80:25:7C:1A:CD:C9:35:07:5B:83",
+        "F6:5D:E1:71:B7:EF:96:E8:5A:1E:64:26:AA:29:17:C0:37:9F:94:10:F6:00:7C:EC:4D:85:3F:07:6F:AB:7C:BC"
       ]
     }
   }
