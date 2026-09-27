@@ -7,6 +7,8 @@
       "namespace": "android_app",
       "package_name": "com.helioshred.flipp4th",
       "sha256_cert_fingerprints": [
+        "68:8B:42:DC:F4:FD:50:F4:0E:61:B8:76:B4:0A:3B:5F:9B:16:08:D0:0D:0B:2A:9A:70:26:E1:92:1B:E7:E4:7E",
+        "3E:43:8F:71:83:9A:1E:95:9F:21:80:80:4A:9D:2B:E6:9F:A8:6E:1B:4D:7A:80:94:3B:19:CE:0B:B4:71:F4:9C",
         "44:7E:4D:41:0B:E3:21:7A:29:DA:F9:23:CA:D1:02:B9:9E:43:F6:97:E3:5E:80:25:7C:1A:CD:C9:35:07:5B:83",
         "F6:5D:E1:71:B7:EF:96:E8:5A:1E:64:26:AA:29:17:C0:37:9F:94:10:F6:00:7C:EC:4D:85:3F:07:6F:AB:7C:BC"
       ]
