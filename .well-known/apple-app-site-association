@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "MWEG5ZR2PX.com.helioshred.flipp4th",
-        "paths": ["*"]
+        "paths": ["/"]
       }
     ]
   }
