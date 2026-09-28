@@ -3,8 +3,14 @@
     "apps": [],
     "details": [
       {
+        "appIDs": ["MWEG5ZR2PX.com.helioshred.flipp4th"],
+        "components": [
+          { "/": "/terms*", "exclude": true },
+          { "/": "/privacy*", "exclude": true },
+          { "/": "*" }
+        ],
         "appID": "MWEG5ZR2PX.com.helioshred.flipp4th",
-        "paths": ["*"]
+        "paths": ["NOT /terms*", "NOT /privacy*", "*"]
       }
     ]
   }

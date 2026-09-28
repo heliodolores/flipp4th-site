@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>FLIP P4TH — Flip Puzzle Game</title>
+  <title>FlipP4TH — Flip Puzzle Game</title>
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <!-- App deep linking -->
   <meta property="al:ios:app_store_id" content="YOUR_APP_STORE_ID">
-  <meta property="al:ios:app_name" content="FLIP P4TH">
+  <meta property="al:ios:app_name" content="FlipP4TH">
   <meta property="al:ios:url" content="flipp4th://">
   <meta property="al:android:package" content="com.helioshred.flipp4th">
-  <meta property="al:android:app_name" content="FLIP P4TH">
+  <meta property="al:android:app_name" content="FlipP4TH">
   <meta property="al:android:url" content="flipp4th://">
 
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="FLIP P4TH — Flip Puzzle Game">
+  <meta property="og:title" content="FlipP4TH — Flip Puzzle Game">
   <meta property="og:description" content="A new flip puzzle every day. Can you solve today's?">
   <meta property="og:type" content="website">
 
@@ -166,7 +166,7 @@
   <!-- ENTRY VIEW -->
   <div class="view active" id="view-entry">
     <div class="card">
-      <img class="logo-img" src="FlipPath-icon.png" alt="FLIP P4TH">
+      <img class="logo-img" src="FlipPath-icon.png" alt="FlipP4TH">
       <div class="level-label-wrap daily">
         <div class="small">DAILY CHALLENGE &middot; <span id="today-label"></span></div>
         <div class="name" id="level-name">Loading...</div>
@@ -227,14 +227,14 @@
   <!-- SHARED/DEEPLINK VIEW (download prompt for ?s= and ?p= links) -->
   <div class="view" id="view-shared" style="max-width:360px">
     <div class="card" style="gap:20px">
-      <img class="logo-img" src="FlipPath-icon.png" alt="FLIP P4TH">
+      <img class="logo-img" src="FlipPath-icon.png" alt="FlipP4TH">
       <div style="text-align:center">
         <div style="font:800 20px 'Nunito',sans-serif" id="shared-title">Someone shared a puzzle!</div>
-        <div style="font:700 13px 'Nunito',sans-serif;color:#8d8474;margin-top:6px" id="shared-subtitle">Download FLIP P4TH to play shared levels</div>
+        <div style="font:700 13px 'Nunito',sans-serif;color:#8d8474;margin-top:6px" id="shared-subtitle">Download FlipP4TH to play shared levels</div>
       </div>
       <div class="store-section" style="margin-top:0">
         <div class="store-header">
-          <div class="store-title">Get FLIP P4TH</div>
+          <div class="store-title">Get FlipP4TH</div>
           <div class="store-sub">Play shared levels &amp; 340+ puzzles!</div>
         </div>
         <div class="store-buttons">
@@ -365,7 +365,7 @@
       if (isDeepLink) {
         if (isLevelLink) {
           document.getElementById('shared-title').textContent = 'Someone challenged you!';
-          document.getElementById('shared-subtitle').textContent = 'Download FLIP P4TH to play this level';
+          document.getElementById('shared-subtitle').textContent = 'Download FlipP4TH to play this level';
         }
         showView('view-shared');
 
@@ -442,7 +442,7 @@
 
       // Share
       document.getElementById('btn-share').onclick = function() {
-        var text = "I solved today's FLIP P4TH Daily Challenge" +
+        var text = "I solved today's FlipP4TH Daily Challenge" +
           (winMoves ? ' in ' + winMoves + ' moves' : '') +
           '! ' + streak + '-day streak.\nhttps://flipp4th.app/';
         if (navigator.share) {
