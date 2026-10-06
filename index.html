@@ -150,7 +150,18 @@
       background: #fff;
     }
 
-    .legal-links a:hover { color: #8d8474 !important; }
+    /* Footer, same layout as cooldive.app */
+    .site-footer { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 8px; }
+    .site-footer .studio { display: flex; flex-direction: column; align-items: center; gap: 2px; text-decoration: none; }
+    /* letter-spacing also trails the last letter; pad the left to match so the label centres */
+    .site-footer .studio span { font: 700 11px 'Nunito', sans-serif; letter-spacing: .12em; padding-left: .12em; color: #b7ae9c; position: relative; z-index: 1; }
+    /* The logo JPEG has white padding built in; pull the label and links closer */
+    .site-footer .studio img { margin: -14px 0 -18px; }
+    .legal-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 8px; font: 700 13px 'Nunito', sans-serif; color: #b7ae9c; }
+    .legal-links a, .site-footer .copy a { color: #a39a88; text-decoration: none; }
+    .site-footer .copy { font: 600 12px 'Nunito', sans-serif; color: #b7ae9c; }
+    .site-footer .copy a { text-decoration: underline; }
+    .legal-links a:hover, .site-footer .copy a:hover { color: #8d8474; }
 
     /* Daily challenge temporarily hidden — remove the "hide-daily" class from <body> to restore */
     .hide-daily .daily { display: none !important; }
@@ -210,13 +221,14 @@
           </a>
         </div>
       </div>
-      <img class="helioshred-logo" src="HelioShred.jpeg" alt="HelioShred Games">
-      <div class="legal-links" style="display:flex;gap:8px;font:600 13px 'Nunito',sans-serif">
-        <a href="/privacy" style="color:#b7ae9c;text-decoration:none">Privacy Policy</a>
-        <span style="color:#b7ae9c">&middot;</span>
-        <a href="/terms" style="color:#b7ae9c;text-decoration:none">Terms of Use</a>
-        <span style="color:#b7ae9c">&middot;</span>
-        <a href="/support" style="color:#b7ae9c;text-decoration:none">Support</a>
+      <div class="site-footer">
+        <a class="studio" href="https://helioshred.com"><span>A GAME BY</span><img class="helioshred-logo" src="HelioShred.jpeg" alt="HelioShred Games"></a>
+        <div class="legal-links">
+          <a href="/privacy">Privacy Policy</a><span>&middot;</span>
+          <a href="/terms">Terms of Use</a><span>&middot;</span>
+          <a href="/support">Support</a>
+        </div>
+        <div class="copy">&copy; 2026 HelioShred Games &middot; <a href="/support#credits">Credits &amp; licenses</a></div>
       </div>
     </div>
   </div>
