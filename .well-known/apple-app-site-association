@@ -7,10 +7,11 @@
         "components": [
           { "/": "/terms*", "exclude": true },
           { "/": "/privacy*", "exclude": true },
+          { "/": "/support*", "exclude": true },
           { "/": "*" }
         ],
         "appID": "MWEG5ZR2PX.com.helioshred.flipp4th",
-        "paths": ["NOT /terms*", "NOT /privacy*", "*"]
+        "paths": ["NOT /terms*", "NOT /privacy*", "NOT /support*", "*"]
       }
     ]
   }
